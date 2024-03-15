@@ -26,6 +26,31 @@ TO DELETE BRANCH git branch -d <-branch name->
 
 
 
+TO CHANGE THE CHANGES WHICH ARE ADDE BUT NTO COMMITTED
+git reset file name //if want to reset only one file conetnt
+git reset // if eant to rest multiple file conetcnts
+
+
+
+
+TO CHANGE THE CHAGES OF FILES WHICH ARE COMMITTED 
+(FOR 1 CHanges)
+git reset HEAD-1
+
+
+(FOR MANY COMMITTED CHANGES)
+
+git reset <commit hash> // presnst in termainal whne you commiitted the element you want to go back to
+can d0  **git log** to see all the changes you made in the terminal
+
+git reset --hard <commit hash> to remove everthung from vs code also
+
+
+
+
+
+
+
 TO SEE DIFFERNCE SBETWEEN TWO BRANCHES git differ bramch name
 TO MEREG TWO BRANCHES git merge branch name
 
